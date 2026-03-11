@@ -58,7 +58,7 @@ public class OperacionesMatematicasTests
     }
 
     [Fact]
-    public void Restar_DosNegativos_RetornaValorCorrecto()
+    public void Restar_Negativos_RetornaValorCorrecto()
     {
         // Arrange
         int a = -10, b = -5;
