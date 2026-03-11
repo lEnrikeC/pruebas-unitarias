@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cursogit\\dia3\\pruebasUnitarias\\pruebas-unitarias\\tests\\Calculadora.tests\\Calculadora.Tests.csproj": {}
+    "D:\\cursogit\\dia3\\pruebasUnitarias\\pruebas-unitarias\\tests\\Calculadora.Tests\\Calculadora.Tests.csproj": {}
   },
   "projects": {
     "D:\\cursogit\\dia3\\pruebasUnitarias\\pruebas-unitarias\\src\\Calculadora\\Calculadora.csproj": {
@@ -343,14 +343,14 @@
         }
       }
     },
-    "D:\\cursogit\\dia3\\pruebasUnitarias\\pruebas-unitarias\\tests\\Calculadora.tests\\Calculadora.Tests.csproj": {
+    "D:\\cursogit\\dia3\\pruebasUnitarias\\pruebas-unitarias\\tests\\Calculadora.Tests\\Calculadora.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cursogit\\dia3\\pruebasUnitarias\\pruebas-unitarias\\tests\\Calculadora.tests\\Calculadora.Tests.csproj",
+        "projectUniqueName": "D:\\cursogit\\dia3\\pruebasUnitarias\\pruebas-unitarias\\tests\\Calculadora.Tests\\Calculadora.Tests.csproj",
         "projectName": "Calculadora.Tests",
-        "projectPath": "D:\\cursogit\\dia3\\pruebasUnitarias\\pruebas-unitarias\\tests\\Calculadora.tests\\Calculadora.Tests.csproj",
+        "projectPath": "D:\\cursogit\\dia3\\pruebasUnitarias\\pruebas-unitarias\\tests\\Calculadora.Tests\\Calculadora.Tests.csproj",
         "packagesPath": "C:\\Users\\luiscortes02\\.nuget\\packages\\",
-        "outputPath": "D:\\cursogit\\dia3\\pruebasUnitarias\\pruebas-unitarias\\tests\\Calculadora.tests\\obj\\",
+        "outputPath": "D:\\cursogit\\dia3\\pruebasUnitarias\\pruebas-unitarias\\tests\\Calculadora.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

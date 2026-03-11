@@ -20,7 +20,7 @@ public class OperacionesMatematicasTests
     }
 
     [Fact]
-    public void Sumar_DosNegativoMasPositivo_RetornaValorCorrecto()
+    public void Sumar_NegativoMasPositivo_RetornaValorCorrecto()
     {
         // Arrange
         int a = -10, b = 10;
@@ -42,5 +42,44 @@ public class OperacionesMatematicasTests
 
         // Assert
         Assert.Equal(0, resultado);
+    }
+
+    [Fact]
+    public void Restar_DosPositivos_RetornaResta()
+    {
+        // Arrange
+        int a = 10, b = 5;
+
+        // Act
+        int resultado = _operacionesMatematicas.Restar(a, b);
+
+        // Assert
+        Assert.Equal(5, resultado);
+    }
+
+    [Fact]
+    public void Restar_DosNegativos_RetornaValorCorrecto()
+    {
+        // Arrange
+        int a = -10, b = -5;
+
+        // Act
+        int resultado = _operacionesMatematicas.Restar(a, b);
+
+        // Assert
+        Assert.Equal(-5, resultado);
+    }   
+
+    [Fact]
+    public void Restar_CeroMenosCero_RetornaCero()
+    {
+        // Arrange
+        int a = 0, b = 0;
+
+        // Act
+        int resultado = _operacionesMatematicas.Restar(a, b);
+
+        // Assert
+        Assert.Equal(0, resultado); 
     }
 }
