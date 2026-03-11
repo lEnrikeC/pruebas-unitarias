@@ -13,4 +13,3 @@ public class OperacionesMatematicas
     }
 
     public bool EsPar(int numero) => numero % 2 == 0;
-}
